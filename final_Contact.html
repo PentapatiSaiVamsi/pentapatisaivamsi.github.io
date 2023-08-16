@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Platform 9 3/4</title>
+<link rel="icon" type="image/x-icon" href="logo_transparent.png">
+<meta charset="utf-8">
+<style>
+  #center {  
+      text-align: center;  
+      opacity: 0.7;
+  }  
+
+  body {
+    background-image: url(colourfulcar.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  form { 
+    font-family: Arial, sans-serif; 
+    width: 350px;
+    padding: 10px;
+  }
+
+  label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  input {
+    display: block;
+    margin-top: 15px;
+  }
+
+  textarea {
+    display: block;
+    margin-top: 15px;
+  }
+
+  nav ul { list-style-type: none;
+          list-style-type: none; 
+                    
+ 		      font-size: 1.3em;         
+ 		      
+
+}
+nav li{ display: inline;
+    
+} 
+
+
+
+nav a { text-decoration: none; 
+        padding-left: 18px;         padding-right: 41px; }
+
+ nav ul ul { position: absolute; background-color: #000000; 
+            padding: 0; text-align: left; display: none;  
+}
+nav ul ul li { border: 0px solid #000000; 
+               display: block; 
+               width: 8em;
+               padding-left: 1em; 
+               margin-left: 0; 
+}
+nav li:hover ul { display: block;}
+
+ul.dropdown-menu {
+            font-size: 30px;
+            display: none;
+            position: absolute;
+            background-color: #FFFFFF;
+            padding: 70px;}
+
+
+
+#float img{ float: left; margin-right: 10px }
+#float {background-color: #f5f5f5 ;}
+.h1{clear: auto;}
+
+#center {  
+      text-align: center;  
+      opacity: 0.7;
+          }  
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+    <div style="display: inline-flex; width: 100%;">
+  
+        <div style="margin-top: 4%; width: 40%; text-align: center;">
+          
+          <nav>
+            <ul>
+              <li><a href="final_Index.html">Home</a></li>
+              <li><a href="final_Services.html">Services</a>
+                <ul  class="dropdown-menu" > 
+                    
+                  <li><a href="carrentals.html">Car rentals</a></li> 
+                  <li><a href="cardetailing.html">Car detailing</a></li> 
+                </ul> 
+              </li>
+              
+              
+            </ul>  
+          </nav>
+        </div>
+        <div style="width: 20%; text-align: center;"><a href="final_Index.html"><img src="logo_transparent.png" alt="LOGO" width="150" height="150"></a></div>
+        <div style="margin-top: 4%; width: 40%; text-align: center;">
+          
+          <nav>
+            <ul>
+              
+              <li><a href="final_Contact.html">Contact</a></li>
+              <li><a href="final_About.html">About</a></li>
+            </ul>  
+          </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+  <div style="background-color: #f5f5f5;">
+    <h2>Please drop your query in the comments. We will reach you shortly....</h2>
+    <fieldset>
+      <legend><strong>Customer Information</strong></legend>
+      <form method="get">
+        <label for="fname">First Name:</label> 
+        <input type="text" name="fname" id="fname" value="First name....."> 
+        <label for="lname">Last Name:</label> 
+        <input type="text" name="lname" id="lname" value="Last name......"> 
+        <label for="number">Contact:</label> 
+        <input type="text" name="number" id="number" value="+1-***-***-****"> 
+        <label for="myEmail">E-mail:</label> 
+        <input type="text" name="myEmail" id="myEmail" value="abc@gmail.com"> 
+        <label for="myComments">Comments:</label> 
+        <textarea name="myComments" id="myComments" rows="2" cols="20" ></textarea> 
+        <input type="submit" value="Submit"  style="margin-left: 110px; ">
+      </form>
+    </fieldset>
+  </div>
+  <div style="text-align: center;  background-color: #f2f3f5;">
+  <a href="mailto:spentapa@confererationcollege.ca;">
+    <img src="mailicon.png" alt="Mail Icon"> 
+  </a>
+</div>
+</main>
+
+<footer id="center">
+  <strong style="background-color: #f5f5f5; text-align: center; ">&copy; 2023 Platform 9 3/4. All rights reserved.</strong>
+</footer>
+</body>
+</html>
